@@ -2,18 +2,33 @@
 p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#first {
+  text-align: center;
+  background-image: url("https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg");
+  color: #fff;
+  height: 300px;
+  text-align: center;
 }
 
 .green p {
-  background-color: teal;
+  background-color: rgb(183, 240, 240);
+  height: 500px;
+  width: 500px;
+  border: 3px solid blue;
+  border-radius: 100%;
 }
 
 p:hover {
+  /* hover: type of selector */
   background-color: lime;
 }
 
 .green {
-  color: teal;
+  color: rgb(18, 117, 156);
 }
 
 .bold {
