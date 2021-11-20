@@ -4,6 +4,10 @@ p {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.green p {
+  background-color: teal;
+}
+
 p:hover {
   background-color: lime;
 }
