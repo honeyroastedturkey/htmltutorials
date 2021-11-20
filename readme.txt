@@ -1,0 +1,1 @@
+Small sample for myself to follow along the codeacademy courses
