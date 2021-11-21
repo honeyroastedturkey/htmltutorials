@@ -1,6 +1,8 @@
 /* id > class > type*/
 * {
   border: red dotted 2px;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -13,13 +15,15 @@ p {
 #first {
   text-align: center;
   background-image: url("https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg");
-  color: #fff;
-  height: 150px;
+  color: rgb(3, 40, 245);
+  height: 100px;
   text-align: center;
   padding: 30px 30px; /*top right bottom left*/
   min-height: 200px;
   max-width: 1000px;
   min-width: 100px;
+  overflow: scroll;
+  box-sizing: border-box; /* better than content-box*/
 }
 
 .green p {
