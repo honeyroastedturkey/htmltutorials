@@ -1,0 +1,55 @@
+/*Notes 
+
+CSS Position: 
+
+0) static:
+nothing will move;
+
+1) Relative: move the element by xx pixel, top right bottom 40px etc;
+
+2) Absolute: ignore all other elements, 
+  i.e. other elements will push up/ go over it as if its not there
+
+3) Fixed : Element fixed to its position no matter where user scrolls on the page
+i.e. for nav bars, toolbars etc
+
+4) sticky: Will stick if you scroll past its element on page
+
+Z-index:
+Z axis, gives page number, 1 is ontop of  0
+i.e. z-index: 1;
+
+Display:
+1) Inline:
+Change elements to inline, even though they might not be able to support inline (i.e. <em> <strong> <a> are inline, <p> is not, but display inline can make <p> into an inline)
+  i.e. display: inline;
+
+2) Block 
+  opposite of inline elements, block elements can have multiline?
+  display: block;
+
+3) Inline-block
+  side by side blocks
+  display: inline-block;
+
+Float:
+Shift element left or right as much as possible inside  the containeer
+  float: right;
+
+Clear:
+specify which side of the element will not touch the same containing element
+i.e. clear: right;
+
+
+The position property allows you to specify the position of an element.
+When set to relative, an element’s position is relative to its default position on the page.
+When set to absolute, an element’s position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.
+When set to fixed, an element’s position can be pinned to any part of the web page. The element will remain in view no matter what.
+When set to sticky, an element can stick to a defined offset position when the user scrolls its parent container.
+The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.
+The display property allows you to control how an element flows vertically and horizontally in a document.
+inline elements take up as little space as possible, and they cannot have manually adjusted width or height.
+block elements take up the width of their container and can have manually adjusted heights.
+inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.
+The float property can move elements as far left or as far right as possible on a web page.
+You can clear an element’s left or right side (or both) using the clear property.
