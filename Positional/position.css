@@ -40,6 +40,10 @@ Clear:
 specify which side of the element will not touch the same containing element
 i.e. clear: right;
 
+font-weight: bold bolder light lighter normal
+font-style: italic;
+font-family: "Times New Roman",serif, "san serif"
+color: rgba(0,0,0) hsl(359,50%,50%) #3513FF
 
 The position property allows you to specify the position of an element.
 When set to relative, an element’s position is relative to its default position on the page.
